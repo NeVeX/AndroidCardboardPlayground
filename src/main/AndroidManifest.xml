@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.mark.vr.cardboard.samples.treasurehunt" >
+          package="com.mark.vr.cardboard.activity" >
 
     <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -16,7 +16,7 @@
             android:label="@string/app_name" >
 
         <activity
-                android:name=".MainActivity"
+                android:name=".FogActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="landscape"
                 android:configChanges="orientation|keyboardHidden|screenSize" >
